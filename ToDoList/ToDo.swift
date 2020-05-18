@@ -43,7 +43,7 @@ class ToDo: NSObject, NSCoding {
     init(title: String, isComplete: Bool, dueDate: Date, notes: String?) {
         
         guard !title.isEmpty else {
-            fatalError("Reminder requires a non-empty title")
+            fatalError("No Empty Titles!")
         }
         
         self.title = title

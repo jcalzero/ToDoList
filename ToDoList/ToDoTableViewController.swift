@@ -29,7 +29,15 @@ class ToDoTableViewController: UITableViewController, ToDoCellDelegate {
         
         let todo = todos[indexPath.row]
         cell.titleLabel?.text = todo.title
+        cell.noteLabel?.text = todo.notes
         cell.isCompleteButton.isSelected = todo.isComplete
+        
+        if cell.isCompleteButton.isSelected {
+            cell.backgroundColor = UIColor.green
+        } else {
+            cell.backgroundColor = UIColor.red
+        }
+        
         return cell
     }
     
