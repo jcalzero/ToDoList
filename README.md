@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='name_of_file.gif' title='List Tracker animated demo' alt='List Tracker animated demo' />
+<img src='http://g.recordit.co/OjUUwAIqrN.gif' title='List Tracker animated demo' alt='List Tracker animated demo' />
 
 ## Notes
 
